@@ -1,0 +1,34 @@
+/**Estilo para BarberShop*/
+
+//base
+@import 'il-components/base/normalize';
+@include normalize();
+
+/*ICONs MDI*/
+
+@import 'mdi/materialdesignicons';
+
+/*VARIABLES*/
+
+@import './config/variables';
+
+/*MIXIS*/
+@import 'config/mixins';
+
+/*GRID*/
+
+@import 'il-components/grid/geral';
+@import 'il-components/grid/grid';
+
+/*CONFIG*/
+@import 'config/tipography';
+
+/*Themes*/
+@import 'theme/colors';
+@import 'theme/buttons';
+
+/*MODULES*/
+@import 'il-components/modules/header';
+@import 'il-components/modules/barber-styles';
+
+

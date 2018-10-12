@@ -1,0 +1,69 @@
+/*---------------VARIABLES----------------*/
+
+/*colors*/
+$primaryColor: #2b302b;
+$primaryAccent: darken($primaryColor, 3%);
+$secondColor: #F1F1F1;
+$secondColorAccent: darken($secondColor, 3%);
+$textColor: #414141;
+$textColorAccent: darken($textColor, 3%);;
+$textColorAlt: #5f575a;
+$textColorLight: #354747;
+$textColorLighten: #758383;
+$textColorDark: #3b3b41;
+$linkColor: #e2f539;
+$linkDarkColor: #66284c;
+$hoverColor: #c5baae;
+
+//body
+$colorBg: #fcfcfc;
+
+$bckBody: #fcf3f3;
+$lines-bg: #e1921f;
+$lines-bg-light: lighten(#e1921f,20%);
+
+/*STRUCTUE*/
+$max-width: 1344px;
+
+/**depoiments*/
+$height-depoments: 550px;
+
+/*header*/
+$height-banner: 850px;
+$banner-bg: lighten(#e1921f,30%);
+$height-main: 280px;
+$pos-header-main-top: 70px;
+$pos-header-main-down: 200px;
+$pos-bottom: 2rem;
+$m-w: 40px;
+$m-h: 40px;
+
+$back-section: rgba(darken($primaryColor, 12%), 0.9); 
+$colorSection: #db4f85;
+
+/**header*/
+$show-img-banner: true;
+$big-img-banner: url('../images/banners/big-img-banner.jpg');
+$back-banner: rgba(darken($primaryColor, 1%), 0.6);
+
+/**barber-styles*/
+$height-styles: 550px;
+
+/*button*/
+$btn-slider-background-color :#343434;
+$btn-slider-background-color-hoover : lighten(#343434,20%);
+$btn-theme-background-color-hoover:lighten(#343434,29%);
+$btn-comment-background-color: #e3e7b9;
+$btn-comment-border-color: #859002;
+$btn-comment-border-color-hoover: #859002;
+$btn-back: rgb(163, 40, 77);
+$bck-btn-submit: #890023;
+$btn-background-color: darken($btn-back, 2%);
+$btn-border-color: rgb(240, 106, 106);
+$btn-border-color-hover: #341221;
+/*buttons para carrinho de compras*/
+$btn-carrinho-back-hoover: lighten($btn-back,15%);
+/*buttons para forms*/
+$btn-forms-background-color: $btn-back;
+$btn-forms-border-color: darken(#D90002,35%);
+$btn-forms-background-color-hoover:lighten($btn-forms-border-color,12%);

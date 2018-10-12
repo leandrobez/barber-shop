@@ -1,0 +1,99 @@
+//Import fonts google
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Nunito:400,600');
+
+$heading-font: 'Nunito', sans-serif; // only 400 and 400i
+$body-font: 'Pathway Gothic One', sans-serif; // only 700
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: $colorBg;
+  font-family: $body-font;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  margin: 0;
+  padding: 0;
+  &.il-section--title {
+    font-size: 1.3rem;
+    @media screen and (min-width: 641px) {
+      font-size: 1.5rem;
+    }
+    &.il-title--withicon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      padding-bottom: .75rem;
+      & i {
+        margin-bottom: 0.35rem;
+      }
+      &:after{
+        content: '';
+        position: absolute;
+        top: 100%;
+        height: 3px;
+        width: 100px;
+        padding: 1px 0;
+        background: #ccab18
+      }
+    }
+  }
+  &.il-section--title{
+    font-weight: bolder;
+  }
+  &.il-big--title {
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    @media screen and (max-width: 360px) {
+      font-size: 1.9rem;
+    }
+    @media screen and (min-width: 361px) and (max-width: 500px) {
+      font-size: 2.2rem;
+    }
+    @media screen and (min-width: 769px) and (max-width: 1170px) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &.il-sub--title, &.il-small--title {
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    @media screen and (max-width: 360px) {
+      font-size: 1.1rem;
+    }
+  }
+  &.il-small--title {
+    font-size: 1rem;
+    @media screen and (max-width: 360px) {
+      font-size: .89rem;
+    }
+  }
+  
+}
+
+p.il-description{
+  line-height: 1.3;
+  &--header{
+    font-size: .9rem;
+  }
+}
+p.il-footer--description{
+  padding: 0;
+  margin: 0;
+}
