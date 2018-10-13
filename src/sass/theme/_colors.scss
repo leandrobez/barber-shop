@@ -1,10 +1,18 @@
 .il-color--text_light{
-    color: lightgray
+    color: lightgray;
 }
 .il-color--text_lighten{
-    color: rgb(247, 232, 232)
+    color: rgb(247, 232, 232);
+}
+.il-color--text_dark{
+    color: rgb(124, 66, 66);
 }
 .il-color--background__light{
     background: rgb(124, 66, 66);
     color: rgb(250, 233, 210);
+}
+
+.il-color--background__lighten{
+    background: rgb(194, 134, 134);
+    color: rgb(175, 154, 124);
 }

@@ -36,13 +36,13 @@
     @import 'nav';
     & .il-header--items {
       position: relative;
-      top: 30%;
+      top: 20%;
       z-index: 3;
       & .il-header--video{
         text-align: center;
         & .il-btn--video{
-          width: 100px;
-          height: 100px;
+          width: 60px;
+          height: 60px;
           margin: auto;
           background: $bck-btn-submit;
           display: flex;
@@ -63,7 +63,6 @@
             @include easeOut;
           } 
         }
-        
       }
       & span{
         text-align: center;
