@@ -50,7 +50,6 @@ nav.il-nav--top {
     flex-direction: column;
     justify-content: center;
     @include easeOut;
-    //  padding: 2px;
     & span {
       @include easeOut;
       cursor: pointer;
